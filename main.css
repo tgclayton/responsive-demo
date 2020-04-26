@@ -1,0 +1,45 @@
+@media screen and (max-width: 360px) {
+  .demo-p {
+    font-size: small;
+    color: green;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .demo-p {
+    font-size: smaller;
+    padding: 0 2em;
+    color: red;
+}
+}
+
+@media screen and (min-width: 769px) {
+  .demo-p {
+    font-size: larger;
+    padding: 0 5em;
+    color: blue;
+}
+}
+
+
+/* .box {
+  height: 50px;
+  width: 50px;
+} */
+
+.red-demo {
+background-color: red;
+}
+
+.green-demo {
+  background-color: green;
+}
+
+.blue-demo {
+  background-color: blue;
+}
+
+.demo {
+  text-align: center;
+}
